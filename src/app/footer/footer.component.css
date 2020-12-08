@@ -1,0 +1,10 @@
+footer {
+    background-color: rgb(48, 175, 191);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    font-family: 'Lobster', cursive;
+}
