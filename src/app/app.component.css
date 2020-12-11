@@ -1,0 +1,274 @@
+header {
+    background-color: rgb(102, 102, 102);  
+}
+
+header ul {
+    padding: 0;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    box-shadow: 7px -6px 12px 8px #383838;
+}
+
+header li {
+    float: left;
+}
+
+header a:hover {
+    background-color: rgb(48, 175, 191);
+    color: white;
+}
+
+header a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-family: 'Lobster', cursive;
+    font-size: x-large;
+    padding: 14px 16px;
+    text-align: center;
+}
+
+.welcome {
+    font-family: 'Lobster', cursive;
+    padding: 128px 16px;
+    padding-bottom: 200px;
+}
+
+header h1 {
+    font-size: 64px;
+    text-align: center;
+}
+
+header p {
+    text-align: center;
+    font-size: x-large;
+    
+}
+
+.get-started {
+    position: absolute;
+    padding: 12px 24px;
+    font-size: 30px;
+    background-color: rgb(48, 175, 191);
+    cursor: pointer;
+    left: 50%;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    border: none;
+    font-family: 'Lobster', cursive;
+    border-radius: 4px;
+}
+
+.get-started:hover {
+    background-color: rgb(42, 152, 167);
+}
+
+/* Home page */
+
+.home-desc {
+    display: flex;
+    
+}
+
+.home-desc h1 {
+    font-size: 64px;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+}
+
+.home-desc h5 {
+    font-size: 25px;
+    margin: 20px;
+    font-family: 'Lobster', cursive;
+    padding-left: 60px;
+    padding-right: 60px;
+    text-align: center;
+}
+
+.home-desc img {
+    width: 50%;
+}
+/* Auth Forms */
+
+.auth-content {
+    text-align: center;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    font-family: 'Lobster', cursive;
+}
+
+.auth-content form {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.text-input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+.submit-btn {
+    width: 100%;
+    background-color: rgb(48, 175, 191);
+    border: none;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Lobster', cursive;
+}
+
+.submit-btn:hover {
+    background-color: rgb(42, 152, 167);
+}
+
+/* Image Form */
+.submit-btn {
+    width: 100%;
+    background-color: rgb(48, 175, 191);
+    border: none;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Lobster', cursive;
+}
+
+.photo-content {
+    text-align: center;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    font-family: 'Lobster', cursive;
+}
+
+.photo-content form {
+    width: 300px;
+    margin: 0 auto;
+}
+
+#description-area {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+/* Photo Gallery */
+
+div.gallery {
+    margin: 35px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 400px;
+    border-radius: 40px;
+    font-family: 'Lobster', cursive;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.title {
+    padding: 15px;
+    text-align: center;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 40px;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+}
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+}
+
+/* Photo Details */
+
+.ph-details {
+    display: flex;
+    margin: 20px;
+}
+
+.ph-details img {
+    border-radius: 40px;
+    margin-top: 40px;
+    width: 40%;
+}
+
+.details {
+    text-align: center;
+    margin: 40px;
+    padding: 0 40px;
+    margin-top: 0;
+}
+
+.details h1 {
+    font-size: 64px;
+    font-family: 'Lobster', cursive;
+}
+
+.details p {
+    font-size: 20px;
+}
+
+.crud-btns {
+    display: flex;
+}
+
+.crud-btn {
+    border: none;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Lobster', cursive;
+    margin-right: 40px;
+}
+
+.like-btn {
+    background-color: rgb(48, 191, 124);
+}
+
+.edit-btn{
+    background-color: rgb(243, 179, 60);
+}
+
+.delete-btn {
+    background-color: rgb(231, 71, 71);
+}
+
+
+/* footer */
+footer {
+    background-color: rgb(102, 102, 102);
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+}
