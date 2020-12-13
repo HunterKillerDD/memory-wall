@@ -1,0 +1,22 @@
+<div class="photo-content">
+    <form [formGroup]="exampleForm" novalidate (ngSubmit)="onSubmit(exampleForm.value)">
+      <div>
+        <label>Title</label>
+        <input formControlName="title" type="text" name="title" class="text-input">
+      </div>
+      
+      <div>
+        <label>Image Url</label>
+        <input formControlName="imageUrl" type="url" name="imgUrl" class="text-input">
+      </div>
+  
+      <div>
+        <label>Description</label>
+        <textarea formControlName="description" name="description" id="description-area" cols="30" rows="10"></textarea>
+      </div>
+  
+      <div>
+        <button type="submit" name="photo-btn" class="submit-btn" [disabled]="!exampleForm.valid">Upload</button>
+      </div>
+    </form>
+  </div>

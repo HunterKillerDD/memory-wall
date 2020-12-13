@@ -1,0 +1,14 @@
+<div class="ph-details">
+    <img [src]="item.imageUrl" alt="" width="600" height="400">
+    <div class="details">
+      <h1>{{item.title}}</h1>
+      <p>{{item.description}}</p>
+      <div class="crud-btns">
+        <button (click)="likePhoto()" name="like-btn" class="crud-btn like-btn" *ngIf="!authCreator() && !hasLikedAuth()">Like</button>
+        <h3 *ngIf="authCreator() || hasLikedAuth()">Likes: {{item._likes}}</h3>
+        <button name="edit-btn" class="crud-btn edit-btn" *ngIf="authCreator()" (click)="editPhoto(item)">Edit</button>
+        <button name="delete-btn" class="crud-btn delete-btn" *ngIf="authCreator()" (click)="delete()">Delete</button>
+      </div>
+      
+    </div>
+  </div>

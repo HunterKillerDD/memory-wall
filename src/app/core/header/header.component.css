@@ -1,0 +1,43 @@
+header {
+    background-color: rgb(68 67 67);
+    box-shadow: 7px -6px 12px 8px #383838;
+    position: relative;
+}
+
+header ul {
+    padding: 0;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    
+}
+
+header li {
+    float: left;
+}
+
+
+
+header a:hover {
+    background-color: rgb(48, 175, 191);
+    color: black;
+}
+
+header a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-family: 'Lobster', cursive;
+    font-size: x-large;
+    padding: 14px 16px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.hello-div {
+    font-family: 'Lobster', cursive;
+    font-size: x-large;
+    padding-top: 12px;
+    padding-right: 10px;
+    color: white;
+}

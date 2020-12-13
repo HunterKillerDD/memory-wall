@@ -1,0 +1,61 @@
+.ph-details {
+    display: flex;
+    margin: 20px;
+}
+
+.ph-details img {
+    border-radius: 40px;
+    margin-top: 40px;
+    width: 40%;
+}
+
+.details {
+    text-align:justify;
+    margin: 40px;
+    padding: 0 40px;
+    margin-top: 0;
+}
+
+.details h1 {
+    font-size: 64px;
+    font-family: 'Lobster', cursive;
+}
+
+.details p {
+    font-size: 20px;
+}
+
+.crud-btns {
+    display: flex;
+}
+
+.crud-btn {
+    border: none;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Lobster', cursive;
+    margin-right: 40px;
+}
+
+.like-btn {
+    background-color: rgb(48, 191, 124);
+}
+
+.edit-btn{
+    background-color: rgb(243, 179, 60);
+}
+
+.delete-btn {
+    background-color: rgb(231, 71, 71);
+}
+
+h3 {
+    font-size: x-large;
+    padding: 14px 20px;
+    padding-left: 5px;
+    margin: 8px 0px;
+    font-family: 'Lobster', cursive;
+}

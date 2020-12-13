@@ -1,0 +1,29 @@
+<div class="auth-content">
+    <form (ngSubmit)="register()">
+  
+      <h1>
+        Register Form
+      </h1>
+      
+      <div>
+        <p *ngIf="errorMessage.length > 0" class="error">
+        {{errorMessage}}
+      </p>
+
+      <p *ngIf="error.message.length > 0" class="error">
+        {{error.message}}
+      </p>
+        <label>Email</label>
+        <input [(ngModel)]="email" type="text" name="email" class="text-input" ngModel required email>
+      </div>
+  
+      <div>
+        <label>Password</label>
+        <input [(ngModel)]="password" type="password" name="password" class="text-input" ngModel required minlength="4">
+      </div>
+  
+      <div>
+        <button type="submit" name="register-btn" class="submit-btn" >Register</button>
+      </div>
+    </form>
+</div>

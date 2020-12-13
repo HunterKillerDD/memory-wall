@@ -1,0 +1,6 @@
+<div class="gallery" *ngFor="let item of items">
+      <a [routerLink]="" (click)="getPhotoById(item)">
+        <img [src]="item.payload.doc.data().imageUrl" alt="" width="600" height="400">
+      <div class="title">{{item.payload.doc.data().title}}</div>
+      </a>
+  </div>

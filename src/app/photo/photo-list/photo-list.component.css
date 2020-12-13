@@ -1,0 +1,41 @@
+div.gallery {
+    margin: 35px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 400px;
+    border-radius: 40px;
+    font-family: 'Lobster', cursive;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.title {
+    padding: 15px;
+    text-align: center;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 40px;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+}
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}

@@ -1,0 +1,62 @@
+
+.home-desc {
+    display: flex;
+    
+}
+
+.home-desc h1 {
+    font-size: 64px;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+}
+
+.home-desc h5 {
+    font-size: 25px;
+    margin: 20px 5em;
+    font-family: 'Lobster', cursive;
+    padding: 0 66px;
+    text-align: center;
+}
+
+.home-desc img {
+    width: 50%;
+    margin-right: 20px;
+}
+
+.get-started {
+    position: absolute;
+    padding: 12px 24px;
+    font-size: 30px;
+    background-color: rgb(48, 175, 191);
+    cursor: pointer;
+    left: 50%;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    border: none;
+    font-family: 'Lobster', cursive;
+    border-radius: 4px;
+}
+
+.get-started:hover {
+    background-color: rgb(42, 152, 167);
+}
+
+.welcome {
+    color: white;
+    font-family: 'Lobster', cursive;
+    padding: 128px 16px;
+    padding-bottom: 200px;
+    background-color: rgb(102, 102, 102); 
+}
+
+.welcome h1 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.welcome p {
+    text-align: center;
+    font-size: 64px;
+    margin: 0;
+    margin-bottom: 20px;
+}

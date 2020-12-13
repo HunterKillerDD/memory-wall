@@ -1,0 +1,29 @@
+<header> 
+    <nav>
+      <ul>
+        <li>
+          <a routerLink="/home">Home</a>
+        </li>
+        <li *ngIf="userService.isUserEmailLoggedIn">
+          <a routerLink="/photos">Photos</a>
+        </li>
+        <li *ngIf="userService.isUserEmailLoggedIn">
+          <a routerLink="/new-photo">New Photo</a>
+        </li>
+        <li style="float: right" *ngIf="!userService.isUserEmailLoggedIn">
+          <a routerLink="/user/login">Login</a>
+        </li>
+        <li style="float: right" *ngIf="!userService.isUserEmailLoggedIn">
+          <a routerLink="/user/register">Register</a>
+        </li>
+        <li style="float: right" *ngIf="userService.isUserEmailLoggedIn">
+          <a (click)="logoutHandler()" routerLink="/home">Logout</a>
+        </li>
+        <li style="float: right" *ngIf="userService.isUserEmailLoggedIn">
+          <div class="hello-div">Hello, {{userService.currentUserName}}</div>
+        </li>
+      </ul>
+    </nav>
+    
+    
+  </header>
